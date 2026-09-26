@@ -20,6 +20,7 @@ body{margin:0;background:var(--light);color:var(--text);font-family:'Cairo',Aria
 .logo{width:145px;height:145px;border-radius:50%;display:block;margin:0 auto 10px;box-shadow:0 8px 30px rgba(0,0,0,.25);background:#fff}
 .brand{font-family:Georgia,serif;letter-spacing:5px;font-size:30px;font-weight:700;margin:0}
 .sub{margin:4px 0 0;color:#e9eee9;font-size:13px}
+.contact{margin:10px auto 0;display:flex;flex-direction:column;gap:3px;color:#f4f7f4;font-size:13px;font-weight:600}.contact a{color:#fff;text-decoration:none}.contact span{display:block}
 .nav{position:sticky;top:0;z-index:10;background:rgba(247,245,238,.96);backdrop-filter:blur(10px);border-bottom:1px solid #e4e0d5;padding:10px 8px;display:flex;gap:7px;overflow:auto}
 .nav a{flex:0 0 auto;text-decoration:none;color:var(--green);background:#fff;border:1px solid #ddd8ca;border-radius:999px;padding:7px 12px;font-size:12px;font-weight:700}
 .container{max-width:720px;margin:0 auto;padding:16px 12px 35px}
@@ -43,10 +44,11 @@ body{margin:0;background:var(--light);color:var(--text);font-family:'Cairo',Aria
   <img class="logo" src="logo.png" alt="Waffle PANDA logo">
   <h1 class="brand">WAFFLE PANDA</h1>
   <p class="sub">MENU • Since 2023</p>
+  <div class="contact"><span>📞 <a href="tel:01200438466">01200438466</a></span><span>📍 ابوحماد – الشارع المقابل لمول سيتي زون</span></div>
 </header>
 
 <nav class="nav" aria-label="أقسام المنيو">
-  <a href="#section-0">مشروبات ساخنة</a><a href="#section-1">قهوة ساخنة</a><a href="#section-2">عصائر فريش</a><a href="#section-3">سموزي</a><a href="#section-4">ميلك شيك</a><a href="#section-5">آيس كوفي</a>
+  <a href="#section-0">مشروبات ساخنة</a><a href="#section-1">قهوة ساخنة</a><a href="#section-2">عصائر فريش</a><a href="#section-3">سموزي</a><a href="#section-4">ميلك شيك</a><a href="#section-5">آيس كوفي</a><a href="#section-6">وافل كلاسيك</a><a href="#section-7">وافل مدور</a><a href="#section-8">فريسكا</a><a href="#section-9">ميني بان كيك</a><a href="#section-10">فته وافل</a><a href="#section-11">سينابون رول</a>
 </nav>
 
 <main class="container">
@@ -147,6 +149,115 @@ body{margin:0;background:var(--light);color:var(--text);font-family:'Cairo',Aria
 <div class='item'><div class='item-name'>فرابيه نوتيلا</div><div class='dots'></div><div class='price'>80 ج</div></div></div>
     </section>
     
+
+    <section class="menu-section" id="section-6">
+      <div class="section-title"><h2>وافل كلاسيك</h2></div>
+      <div class="items">
+<div class='item'><div class='item-name'>وافل نوتيلا صغير</div><div class='dots'></div><div class='price'>20 ج</div></div>
+<div class='item'><div class='item-name'>وافل نوتيلا كبير</div><div class='dots'></div><div class='price'>30 ج</div></div>
+<div class='item'><div class='item-name'>وافل لوتس</div><div class='dots'></div><div class='price'>40 ج</div></div>
+<div class='item'><div class='item-name'>وافل وايت شوكليت</div><div class='dots'></div><div class='price'>40 ج</div></div>
+<div class='item'><div class='item-name'>وافل هوهوز</div><div class='dots'></div><div class='price'>40 ج</div></div>
+<div class='item'><div class='item-name'>وافل أوريو</div><div class='dots'></div><div class='price'>40 ج</div></div>
+<div class='item'><div class='item-name'>وافل موز</div><div class='dots'></div><div class='price'>40 ج</div></div>
+<div class='item'><div class='item-name'>وافل ميكس</div><div class='dots'></div><div class='price'>40 ج</div></div>
+<div class='item'><div class='item-name'>وافل كيندر</div><div class='dots'></div><div class='price'>45 ج</div></div>
+<div class='item'><div class='item-name'>وافل فيريرو روشيه</div><div class='dots'></div><div class='price'>45 ج</div></div>
+<div class='item'><div class='item-name'>وافل رافيلو</div><div class='dots'></div><div class='price'>45 ج</div></div>
+<div class='item'><div class='item-name'>وافل سبريد توت</div><div class='dots'></div><div class='price'>45 ج</div></div>
+<div class='item'><div class='item-name'>وافل بستاشيو</div><div class='dots'></div><div class='price'>50 ج</div></div>
+<div class='item'><div class='item-name'>وافل مكسرات</div><div class='dots'></div><div class='price'>60 ج</div></div>
+</div>
+    </section>
+
+    <section class="menu-section" id="section-7">
+      <div class="section-title"><h2>وافل مدور</h2></div>
+      <div class="items">
+<div class='item'><div class='item-name'>وافل فورسيزون <span class='note'>(لوتس - نوتيلا - وايت - كراميل)</span></div><div class='dots'></div><div class='price'>55 ج</div></div>
+<div class='item'><div class='item-name'>وافل نص ونص</div><div class='dots'></div><div class='price'>65 ج</div></div>
+<div class='item'><div class='item-name'>وافل هرمون السعادة <span class='note'>(كيندر - نوتيلا - فواكه - لوتس)</span></div><div class='dots'></div><div class='price'>65 ج</div></div>
+<div class='item'><div class='item-name'>وافل ميكس باندا <span class='note'>(نوتيلا - وايت - أوريو - هوهوز - كراميل - دارك شوكليت)</span></div><div class='dots'></div><div class='price'>70 ج</div></div>
+<div class='item'><div class='item-name'>وافل ميكس فواكه <span class='note'>(موز / فراولة / كيوي / تفاح / مانجا)</span></div><div class='dots'></div><div class='price'>70 ج</div></div>
+<div class='item'><div class='item-name'>وافل سبشيال <span class='note'>(بستاشيو - كيندر - وايت - توت)</span></div><div class='dots'></div><div class='price'>70 ج</div></div>
+<div class='item'><div class='item-name'>وافل بستاشيو</div><div class='dots'></div><div class='price'>70 ج</div></div>
+<div class='item'><div class='item-name'>وافل لوتس + بسكوت لوتس</div><div class='dots'></div><div class='price'>65 ج</div></div>
+<div class='item'><div class='item-name'>وافل وايت + أوريو</div><div class='dots'></div><div class='price'>65 ج</div></div>
+<div class='item'><div class='item-name'>وافل نوتيلا</div><div class='dots'></div><div class='price'>55 ج</div></div>
+</div>
+    </section>
+
+    <section class="menu-section" id="section-8">
+      <div class="section-title"><h2>فريسكا</h2></div>
+      <div class="items">
+<div class='item'><div class='item-name'>نوتيلا</div><div class='dots'></div><div class='price'>10 ج</div></div>
+<div class='item'><div class='item-name'>نوتيلا سبشيال</div><div class='dots'></div><div class='price'>15 ج</div></div>
+<div class='item'><div class='item-name'>وايت</div><div class='dots'></div><div class='price'>15 ج</div></div>
+<div class='item'><div class='item-name'>لوتس</div><div class='dots'></div><div class='price'>15 ج</div></div>
+<div class='item'><div class='item-name'>هوهوز نوتيلا</div><div class='dots'></div><div class='price'>20 ج</div></div>
+<div class='item'><div class='item-name'>أوريو نوتيلا</div><div class='dots'></div><div class='price'>20 ج</div></div>
+<div class='item'><div class='item-name'>توينكز وايت</div><div class='dots'></div><div class='price'>20 ج</div></div>
+<div class='item'><div class='item-name'>ماندولين</div><div class='dots'></div><div class='price'>20 ج</div></div>
+<div class='item'><div class='item-name'>رولانا</div><div class='dots'></div><div class='price'>20 ج</div></div>
+<div class='item'><div class='item-name'>مارشميلو</div><div class='dots'></div><div class='price'>20 ج</div></div>
+<div class='item'><div class='item-name'>فلوتس</div><div class='dots'></div><div class='price'>25 ج</div></div>
+<div class='item'><div class='item-name'>كيندر</div><div class='dots'></div><div class='price'>20 ج</div></div>
+<div class='item'><div class='item-name'>لارش كيك نوتيلا</div><div class='dots'></div><div class='price'>25 ج</div></div>
+<div class='item'><div class='item-name'>مورو</div><div class='dots'></div><div class='price'>30 ج</div></div>
+<div class='item'><div class='item-name'>بستاشيو</div><div class='dots'></div><div class='price'>25 ج</div></div>
+<div class='item'><div class='item-name'>جلاكسي</div><div class='dots'></div><div class='price'>30 ج</div></div>
+<div class='item'><div class='item-name'>كادبوري ديري ميلك</div><div class='dots'></div><div class='price'>35 ج</div></div>
+<div class='item'><div class='item-name'>كيت كات</div><div class='dots'></div><div class='price'>35 ج</div></div>
+<div class='item'><div class='item-name'>تويكس</div><div class='dots'></div><div class='price'>40 ج</div></div>
+<div class='item'><div class='item-name'>كيندر بوينو</div><div class='dots'></div><div class='price'>40 ج</div></div>
+<div class='item'><div class='item-name'>سنيكرز</div><div class='dots'></div><div class='price'>45 ج</div></div>
+</div>
+    </section>
+
+    <section class="menu-section" id="section-9">
+      <div class="section-title"><h2>ميني بان كيك</h2><span class='section-badge'>12 قطعة | 25 قطعة</span></div>
+      <div class="items">
+<div class='item'><div class='item-name'>بوكس نوتيلا</div><div class='dots'></div><div class='price'>30 ج | 60 ج</div></div>
+<div class='item'><div class='item-name'>بوكس وايت</div><div class='dots'></div><div class='price'>35 ج | 70 ج</div></div>
+<div class='item'><div class='item-name'>بوكس لوتس</div><div class='dots'></div><div class='price'>35 ج | 70 ج</div></div>
+<div class='item'><div class='item-name'>بوكس كيندر</div><div class='dots'></div><div class='price'>40 ج | 80 ج</div></div>
+<div class='item'><div class='item-name'>بوكس بستاشيو</div><div class='dots'></div><div class='price'>50 ج | 99 ج</div></div>
+<div class='item'><div class='item-name'>بوكس فورسيزون</div><div class='dots'></div><div class='price'>45 ج | 99 ج</div></div>
+<div class='item'><div class='item-name'>بوكس ميكس السعادة <span class='note'>(نوتيلا + وايت + لوتس + بستاشيو + دارك + أوريو)</span></div><div class='dots'></div><div class='price'>— | 99 ج</div></div>
+<div class='item'><div class='item-name'>بوكس ميكس فواكه <span class='note'>(نوتيلا + وايت + موز + كيوي + فراولة + مانجا + كراميل)</span></div><div class='dots'></div><div class='price'>— | 100 ج</div></div>
+</div>
+      <div class="note" style="margin-top:10px">أسعار بوكس ميكس السعادة وميكس الفواكه للـ25 قطعة فقط حسب البيانات المرسلة.</div>
+    </section>
+
+    <section class="menu-section" id="section-10">
+      <div class="section-title"><h2>فته وافل</h2></div>
+      <div class="items">
+<div class='item'><div class='item-name'>فته وافل نوتيلا</div><div class='dots'></div><div class='price'>55 ج</div></div>
+<div class='item'><div class='item-name'>فته وافل لوتس</div><div class='dots'></div><div class='price'>65 ج</div></div>
+<div class='item'><div class='item-name'>فته وافل وايت شوكليت</div><div class='dots'></div><div class='price'>65 ج</div></div>
+<div class='item'><div class='item-name'>فته وافل نوتيلا أوريو</div><div class='dots'></div><div class='price'>65 ج</div></div>
+<div class='item'><div class='item-name'>فته وافل ميكس</div><div class='dots'></div><div class='price'>65 ج</div></div>
+<div class='item'><div class='item-name'>فته وافل كيندر</div><div class='dots'></div><div class='price'>65 ج</div></div>
+<div class='item'><div class='item-name'>فته وافل نص ونص</div><div class='dots'></div><div class='price'>70 ج</div></div>
+<div class='item'><div class='item-name'>فته وافل بستاشيو</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>فته وافل فورسيزون</div><div class='dots'></div><div class='price'>90 ج</div></div>
+</div>
+    </section>
+
+    <section class="menu-section" id="section-11">
+      <div class="section-title"><h2>سينابون رول</h2></div>
+      <div class="items">
+<div class='item'><div class='item-name'>كلاسيك</div><div class='dots'></div><div class='price'>70 ج</div></div>
+<div class='item'><div class='item-name'>نوتيلا</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>وايت</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>لوتس</div><div class='dots'></div><div class='price'>85 ج</div></div>
+<div class='item'><div class='item-name'>نص ونص</div><div class='dots'></div><div class='price'>90 ج</div></div>
+<div class='item'><div class='item-name'>كيندر</div><div class='dots'></div><div class='price'>90 ج</div></div>
+<div class='item'><div class='item-name'>فيريرو روشيه</div><div class='dots'></div><div class='price'>90 ج</div></div>
+<div class='item'><div class='item-name'>بستاشيو</div><div class='dots'></div><div class='price'>95 ج</div></div>
+<div class='item'><div class='item-name'>فورسيزون</div><div class='dots'></div><div class='price'>105 ج</div></div>
+</div>
+    </section>
+
   <div class="footer">أسعار المنيو بالجنيه المصري • <strong>Waffle PANDA 🐼</strong></div>
 </main>
 </body>
