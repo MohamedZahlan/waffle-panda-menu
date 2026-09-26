@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#174f3c">
+<meta name="description" content="منيو Waffle PANDA">
+<title>Waffle PANDA | Menu</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap');
+:root {
+  --green:#174f3c; --green2:#0e382a; --light:#f7f5ee; --gold:#d8bd72;
+  --text:#1e2723; --muted:#6d746f; --card:#ffffff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--light);color:var(--text);font-family:'Cairo',Arial,sans-serif}
+.hero{background:linear-gradient(145deg,var(--green2),var(--green));color:#fff;padding:28px 18px 34px;text-align:center;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:240px;height:240px;border:1px solid rgba(255,255,255,.1);border-radius:50%;top:-110px;left:-80px}
+.logo{width:145px;height:145px;border-radius:50%;display:block;margin:0 auto 10px;box-shadow:0 8px 30px rgba(0,0,0,.25);background:#fff}
+.brand{font-family:Georgia,serif;letter-spacing:5px;font-size:30px;font-weight:700;margin:0}
+.sub{margin:4px 0 0;color:#e9eee9;font-size:13px}
+.nav{position:sticky;top:0;z-index:10;background:rgba(247,245,238,.96);backdrop-filter:blur(10px);border-bottom:1px solid #e4e0d5;padding:10px 8px;display:flex;gap:7px;overflow:auto}
+.nav a{flex:0 0 auto;text-decoration:none;color:var(--green);background:#fff;border:1px solid #ddd8ca;border-radius:999px;padding:7px 12px;font-size:12px;font-weight:700}
+.container{max-width:720px;margin:0 auto;padding:16px 12px 35px}
+.menu-section{background:var(--card);border:1px solid #e6e2d8;border-radius:18px;margin:12px 0;padding:16px 15px;box-shadow:0 5px 18px rgba(21,47,38,.05)}
+.section-title{display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #eee9dd;padding-bottom:10px;margin-bottom:4px}
+.section-title h2{margin:0;color:var(--green);font-size:21px;font-weight:800}
+.section-badge{background:var(--green);color:#fff;border-radius:8px;padding:2px 9px;font-size:12px;font-weight:800}
+.item{display:flex;align-items:baseline;gap:8px;padding:10px 0;border-bottom:1px dashed #e4e0d7;font-size:15px}
+.item:last-child{border-bottom:0}
+.item-name{font-weight:600}
+.dots{flex:1;border-bottom:1px dotted #bbb;min-width:12px;transform:translateY(-4px)}
+.price{font-weight:800;color:var(--green);white-space:nowrap}
+.note{font-size:11px;color:var(--muted);font-weight:400}
+.footer{text-align:center;padding:8px 0 24px;color:var(--muted);font-size:12px}
+.footer strong{color:var(--green)}
+@media(min-width:650px){.hero{padding-top:38px}.logo{width:165px;height:165px}.container{padding-top:22px}.item{font-size:16px}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <img class="logo" src="logo.png" alt="Waffle PANDA logo">
+  <h1 class="brand">WAFFLE PANDA</h1>
+  <p class="sub">MENU • Since 2023</p>
+</header>
+
+<nav class="nav" aria-label="أقسام المنيو">
+  <a href="#section-0">مشروبات ساخنة</a><a href="#section-1">قهوة ساخنة</a><a href="#section-2">عصائر فريش</a><a href="#section-3">سموزي</a><a href="#section-4">ميلك شيك</a><a href="#section-5">آيس كوفي</a>
+</nav>
+
+<main class="container">
+  
+    <section class="menu-section" id="section-0">
+      <div class="section-title"><h2>مشروبات ساخنة</h2></div>
+      <div class="items"><div class='item'><div class='item-name'>شاي</div><div class='dots'></div><div class='price'>20 ج</div></div>
+<div class='item'><div class='item-name'>شاي أخضر</div><div class='dots'></div><div class='price'>25 ج</div></div>
+<div class='item'><div class='item-name'>شاي احمد تي</div><div class='dots'></div><div class='price'>25 ج</div></div>
+<div class='item'><div class='item-name'>شاي بالحليب</div><div class='dots'></div><div class='price'>30 ج</div></div>
+<div class='item'><div class='item-name'>قرفة بالحليب</div><div class='dots'></div><div class='price'>30 ج</div></div>
+<div class='item'><div class='item-name'>شاي كرك</div><div class='dots'></div><div class='price'>30 ج</div></div>
+<div class='item'><div class='item-name'>أعشاب <span class='note'>(ينسون - كركديه - نعناع)</span></div><div class='dots'></div><div class='price'>20 ج</div></div>
+<div class='item'><div class='item-name'>هوت شوكليت</div><div class='dots'></div><div class='price'>40 ج</div></div>
+<div class='item'><div class='item-name'>سحلب</div><div class='dots'></div><div class='price'>40 ج</div></div>
+<div class='item'><div class='item-name'>كوفي ميكس</div><div class='dots'></div><div class='price'>25 ج</div></div>
+<div class='item'><div class='item-name'>نسكافيه بالحليب</div><div class='dots'></div><div class='price'>45 ج</div></div></div>
+    </section>
+    
+    <section class="menu-section" id="section-1">
+      <div class="section-title"><h2>قهوة ساخنة</h2></div>
+      <div class="items"><div class='item'><div class='item-name'>قهوة تركي</div><div class='dots'></div><div class='price'>30 ج</div></div>
+<div class='item'><div class='item-name'>قهوة فرنساوي</div><div class='dots'></div><div class='price'>40 ج</div></div>
+<div class='item'><div class='item-name'>قهوة بندق</div><div class='dots'></div><div class='price'>45 ج</div></div>
+<div class='item'><div class='item-name'>قهوة نوتيلا</div><div class='dots'></div><div class='price'>40 ج</div></div>
+<div class='item'><div class='item-name'>إسبريسو سنجل</div><div class='dots'></div><div class='price'>35 ج</div></div>
+<div class='item'><div class='item-name'>دابل إسبريسو</div><div class='dots'></div><div class='price'>45 ج</div></div>
+<div class='item'><div class='item-name'>أمريكانو</div><div class='dots'></div><div class='price'>45 ج</div></div>
+<div class='item'><div class='item-name'>مكياتو</div><div class='dots'></div><div class='price'>55 ج</div></div>
+<div class='item'><div class='item-name'>كورتادو</div><div class='dots'></div><div class='price'>55 ج</div></div>
+<div class='item'><div class='item-name'>فلات وايت</div><div class='dots'></div><div class='price'>55 ج</div></div>
+<div class='item'><div class='item-name'>كابتشينو</div><div class='dots'></div><div class='price'>70 ج</div></div>
+<div class='item'><div class='item-name'>لاتيه</div><div class='dots'></div><div class='price'>70 ج</div></div>
+<div class='item'><div class='item-name'>موكا</div><div class='dots'></div><div class='price'>65 ج</div></div>
+<div class='item'><div class='item-name'>وايت موكا</div><div class='dots'></div><div class='price'>70 ج</div></div>
+<div class='item'><div class='item-name'>سبانيش لاتيه</div><div class='dots'></div><div class='price'>70 ج</div></div></div>
+    </section>
+    
+    <section class="menu-section" id="section-2">
+      <div class="section-title"><h2>عصائر فريش</h2><span class='section-badge'>L</span></div>
+      <div class="items"><div class='item'><div class='item-name'>مانجا</div><div class='dots'></div><div class='price'>50 ج</div></div>
+<div class='item'><div class='item-name'>فراولة</div><div class='dots'></div><div class='price'>50 ج</div></div>
+<div class='item'><div class='item-name'>بطيخ</div><div class='dots'></div><div class='price'>50 ج</div></div>
+<div class='item'><div class='item-name'>ليمون</div><div class='dots'></div><div class='price'>40 ج</div></div>
+<div class='item'><div class='item-name'>ليمون نعناع</div><div class='dots'></div><div class='price'>50 ج</div></div>
+<div class='item'><div class='item-name'>جوافة</div><div class='dots'></div><div class='price'>50 ج</div></div>
+<div class='item'><div class='item-name'>جوافة بالحليب</div><div class='dots'></div><div class='price'>60 ج</div></div>
+<div class='item'><div class='item-name'>موز بالحليب</div><div class='dots'></div><div class='price'>55 ج</div></div>
+<div class='item'><div class='item-name'>فراولة بالحليب</div><div class='dots'></div><div class='price'>60 ج</div></div>
+<div class='item'><div class='item-name'>بلح بالحليب</div><div class='dots'></div><div class='price'>60 ج</div></div>
+<div class='item'><div class='item-name'>كيوي</div><div class='dots'></div><div class='price'>75 ج</div></div></div>
+    </section>
+    
+    <section class="menu-section" id="section-3">
+      <div class="section-title"><h2>سموزي</h2></div>
+      <div class="items"><div class='item'><div class='item-name'>فراولة</div><div class='dots'></div><div class='price'>50 ج</div></div>
+<div class='item'><div class='item-name'>مانجا</div><div class='dots'></div><div class='price'>50 ج</div></div>
+<div class='item'><div class='item-name'>بطيخ</div><div class='dots'></div><div class='price'>50 ج</div></div>
+<div class='item'><div class='item-name'>كيوي</div><div class='dots'></div><div class='price'>60 ج</div></div>
+<div class='item'><div class='item-name'>ميكس بيري</div><div class='dots'></div><div class='price'>60 ج</div></div>
+<div class='item'><div class='item-name'>بلوبيري فراولة</div><div class='dots'></div><div class='price'>60 ج</div></div>
+<div class='item'><div class='item-name'>مانجو كولادا</div><div class='dots'></div><div class='price'>60 ج</div></div>
+<div class='item'><div class='item-name'>باشون فروت</div><div class='dots'></div><div class='price'>60 ج</div></div></div>
+    </section>
+    
+    <section class="menu-section" id="section-4">
+      <div class="section-title"><h2>ميلك شيك</h2></div>
+      <div class="items"><div class='item'><div class='item-name'>فانيليا</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>فراولة</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>بلوبيري</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>مانجا</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>شكولاته</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>أوريو</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>لوتس</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>كيندر</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>قهوة</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>نوتيلا</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>كراميل</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>فسدق</div><div class='dots'></div><div class='price'>90 ج</div></div></div>
+    </section>
+    
+    <section class="menu-section" id="section-5">
+      <div class="section-title"><h2>آيس كوفي</h2></div>
+      <div class="items"><div class='item'><div class='item-name'>آيس أمريكانو</div><div class='dots'></div><div class='price'>55 ج</div></div>
+<div class='item'><div class='item-name'>آيس لاتيه</div><div class='dots'></div><div class='price'>70 ج</div></div>
+<div class='item'><div class='item-name'>آيس موكا</div><div class='dots'></div><div class='price'>65 ج</div></div>
+<div class='item'><div class='item-name'>آيس وايت موكا</div><div class='dots'></div><div class='price'>70 ج</div></div>
+<div class='item'><div class='item-name'>آيس سبانيش</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>آيس كراميل ماكياتو</div><div class='dots'></div><div class='price'>70 ج</div></div>
+<div class='item'><div class='item-name'>آيس فلات وايت</div><div class='dots'></div><div class='price'>70 ج</div></div>
+<div class='item'><div class='item-name'>آيس فانيليا لاتيه</div><div class='dots'></div><div class='price'>70 ج</div></div>
+<div class='item'><div class='item-name'>آيس كراميل لاتيه</div><div class='dots'></div><div class='price'>70 ج</div></div>
+<div class='item'><div class='item-name'>بلو آيس سبانيش لاتيه</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>فرابيه قهوة</div><div class='dots'></div><div class='price'>70 ج</div></div>
+<div class='item'><div class='item-name'>فرابيه كراميل</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>فرابيه فانيليا</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>فرابيه أوريو</div><div class='dots'></div><div class='price'>80 ج</div></div>
+<div class='item'><div class='item-name'>فرابيه نوتيلا</div><div class='dots'></div><div class='price'>80 ج</div></div></div>
+    </section>
+    
+  <div class="footer">أسعار المنيو بالجنيه المصري • <strong>Waffle PANDA 🐼</strong></div>
+</main>
+</body>
+</html>
